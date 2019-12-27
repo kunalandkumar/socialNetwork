@@ -1,0 +1,27 @@
+# create database facebook;
+ # use facebook;
+  
+#CREATE TABLE TBL_USER_REGISTERATION(
+ # id INT AUTO_INCREMENT  PRIMARY KEY,
+  /*first_name VARCHAR(250) NOT NULL,
+  last_name VARCHAR(250) NOT NULL,
+  email_id VARCHAR(250) DEFAULT NULL,
+  gender VARCHAR(250) DEFAULT NULL,
+  dob VARCHAR(250)DEFAULT NULL
+   	
+	
+);
+*/
+/*INSERT INTO TBL_USER_REGISTERATION(first_name, last_name, email_id,gender,dob)VALUES
+  ('Lokesh', 'Gupta', 'abc@gmail.com','M','1999');
+*/
+
+/*INSERT INTO TBL_USER_REGISTERATION(first_name, last_name, email_id,gender,dob)VALUES
+  ('kunal', 'kumar', 'kunal@gmail.com','M','1999');
+*/
+select * from TBL_USER_REGISTERATION;
+
+INSERT INTO TBL_USER_REGISTERATION(first_name, last_name, email_id,gender,dob)VALUES
+  ('nikhil', 'kumar', 'nikhil@gmail.com','M','2000');
+  alter table TBL_USER_REGISTERATION add column(password varchar(30));
+  
